@@ -2,7 +2,7 @@
 
 > **AI-powered document question-answering system using RAG (Retrieval-Augmented Generation) and Gemini**  
 
-<img src="banner.png" alt="Information Retrieval Banner" height="250" width="100%">  
+<img src="Assets/pic-1.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
 
 ---
 
@@ -54,39 +54,42 @@ It leverages **LangChain, FAISS vector database, and Google’s Gemini model** t
    ```bash
    git clone https://github.com/AkhilShinde7205/information-retrieval-system.git
    cd information-retrieval-system
-2.Create a virtual environment & activate it
-  ```bash
+   ```
+2. **Create a virtual environment & activate it**
+   ```bash
    python -m venv myenv310
-  ```
-3.
-  ```bash
+   ```
+3. **ADD Virtual Environment**
+   ```bash
    myenv310\Scripts\activate   # Windows
    source myenv310/bin/activate  # Linux/Mac
+   ```
 
-
-4.Install dependencies
-  ```bash
+4. **Install dependencies**
+   ```bash
     pip install -r requirements.txt
-  ```
-5.Create a .env file in the root directory:
-  ```bash
-  GOOGLE_API_KEY=your_api_key_here
-  ```
+   ```
+5. **Create a .env file in the root directory:**
+   ```bash
+     GOOGLE_API_KEY=your_api_key_here
+    ```
 
-If deploying to Streamlit Cloud, add your key in:
-Manage App → Settings → Secrets
+## If deploying to Streamlit Cloud, add your key in:
+ Manage App → Settings → Secrets
 
-Run the Streamlit app
-
-streamlit run app.py
-
+6. **Run the Streamlit app**
+     ```bash
+   streamlit run app.py
+    ```
 📸 Preview
-Step 1 – Upload PDF(s)
-
-Step 2 – Ask Questions
-
-Step 3 – Get AI-Powered Answers
-
+## Step 1 – Upload PDF(s)
+<img src="Assets/pic-2.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
+## Step 2 – Ask Questions If Not In Pdf See Output.
+<img src="Assets/pic-3.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
+## Step 3 – Upload Another Pdf With Data.You Can Upload Many Pdfs
+<img src="Assets/pic-4.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
+## Step 4 - Check Again Ask Question And See
+<img src="Assets/pic-5.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
 📈 Results & Impact
 
 ⚡ Instant answers from large documents (e.g., research papers, reports).
