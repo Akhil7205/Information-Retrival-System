@@ -1,5 +1,16 @@
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env
+load_dotenv()
+
 import streamlit as st
-from src.helper import get_pdf_text, get_text_chunks, get_vector_store, get_conversational_chain
+from src.helper import (
+    get_pdf_text,
+    get_text_chunks,
+    get_vector_store,
+    get_conversational_chain
+)
 
 
 def handle_user_input(user_question):
