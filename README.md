@@ -84,12 +84,16 @@ It leverages **LangChain, FAISS vector database, and Google’s Gemini model** t
 📸 Preview
 ## Step 1 – Upload PDF(s)
 <img src="Assets/pic-2.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
+
 ## Step 2 – Ask Questions If Not In Pdf See Output.
 <img src="Assets/pic-3.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
+
 ## Step 3 – Upload Another Pdf With Data.You Can Upload Many Pdfs
 <img src="Assets/pic-4.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
+
 ## Step 4 - Check Again Ask Question And See
 <img src="Assets/pic-5.jpeg" alt="Information Retrieval Banner" height="450" width="100%">  
+
 📈 Results & Impact
 
 ⚡ Instant answers from large documents (e.g., research papers, reports).
@@ -99,7 +103,7 @@ It leverages **LangChain, FAISS vector database, and Google’s Gemini model** t
 🤖 Natural, conversational interface powered by Gemini.
 
 👨‍💻 Contributors
-
+Passionate Geni-AI Engineer
 Akhil (@Akhil7205)
 
 
