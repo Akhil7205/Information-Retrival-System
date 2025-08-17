@@ -25,7 +25,7 @@ def handle_user_input(user_question):
 
 def main():
     st.set_page_config(page_title="Information Retrieval System 💁", layout="wide")
-    st.title("📄 Chat with Pdf.")
+    st.title("📄 Chat with Pdf's...")
 
     # Initialize session state if not exists
     if "conversation" not in st.session_state:
